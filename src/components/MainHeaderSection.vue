@@ -1,13 +1,13 @@
 <template>
   <header class="cv-header">
     <!-- left column -->
-    <div>
+    <div class="cv-header-name">
       <h1>{{ fullName }}</h1>
       <h2>{{ jobTitle }}</h2>
     </div>
 
     <!-- right column -->
-    <address>
+    <address class="cv-header-details">
       <p>{{ fullAddress }}</p>
       <p>{{ phone }}</p>
       <p>{{ email }}</p>
@@ -47,4 +47,18 @@
   };
 </script>
 
-<style></style>
+<style lang="less">
+  @import '../less/style_config';
+
+  .cv-header {
+    background: @color_bg_app_header;
+    padding: @padding_app_header;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    h1 {
+      font-weight: 900;
+    }
+  }
+</style>

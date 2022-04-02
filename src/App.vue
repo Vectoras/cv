@@ -1,12 +1,14 @@
 <template>
-  <app-header :data="personalDetails" />
-  <skills-section :data="skills" />
-  <professional-summary-section :data="professionalSummary" />
-  <portfolio-section :data="portfolio" />
-  <work-history-section :data="workHistory" />
-  <education-section :data="education" />
-  <additional-information-section :data="additionalInformation" />
-  <hobbies-section :data="hobbies" />
+  <div class="app-container">
+    <app-header :data="personalDetails" />
+    <skills-section :data="skills" />
+    <professional-summary-section :data="professionalSummary" />
+    <portfolio-section :data="portfolio" />
+    <work-history-section :data="workHistory" />
+    <education-section :data="education" />
+    <additional-information-section :data="additionalInformation" />
+    <hobbies-section :data="hobbies" />
+  </div>
 </template>
 
 <script>
@@ -67,9 +69,17 @@
 
   * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
   body {
-    background: @color_app_bg;
+    background: @color_bg_app;
+    font-family: @font_family_app, @font_backup_style_app;
+  }
+
+  .app-container {
+    max-width: @max_width_app;
+    margin: 0 auto;
   }
 </style>
