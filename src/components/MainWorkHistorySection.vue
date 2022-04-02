@@ -1,5 +1,6 @@
 <template>
-  <template-main-section :sectionTitle="'Work History'" :sectionIcon="'fa-solid fa-person-digging'">
+  <!-- <template-main-section :sectionTitle="'Work History'" :sectionIcon="['fas', 'person-digging']"> -->
+  <template-main-section :sectionTitle="'Work History'" :sectionIcon="'fas fa-hard-hat'">
     <low-level-activity-section
       v-for="(activity, index) in activities"
       :key="`${index}-${activity.organisationName}`"

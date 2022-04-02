@@ -1,5 +1,6 @@
 <template>
-  <template-main-section :sectionTitle="'Skills'" :sectionIcon="'fa-solid fa-flask-vial'">
+  <!-- <template-main-section :sectionTitle="'Skills'" :sectionIcon="['fas', 'user']"> -->
+  <template-main-section :sectionTitle="'Skills'" :sectionIcon="'fas fa-star'">
     <low-level-columns-list-section :data="skills" />
   </template-main-section>
 </template>

@@ -1,8 +1,9 @@
 <template>
-  <template-main-section
+  <!-- <template-main-section
     :sectionTitle="'Professional Summary'"
-    :sectionIcon="'fa-solid fa-user-check'"
-  >
+    :sectionIcon="['fas', 'user-check']"
+  > -->
+  <template-main-section :sectionTitle="'Professional Summary'" :sectionIcon="'fas fa-user-check'">
     <low-level-text-section :data="professionalSummary" />
   </template-main-section>
 </template>

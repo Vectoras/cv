@@ -4,6 +4,8 @@
     <header>
       <!-- Icon -->
       <!-- <div><font-awesome-icon :icon="sectionIcon" /></div> -->
+      <!-- <div><font-awesome-icon :icon="['fas', 'user']" /></div> -->
+      <i :class="sectionIcon"></i>
 
       <!-- Title -->
       <h3>{{ sectionTitle }}</h3>
@@ -11,7 +13,7 @@
     </header>
 
     <!-- Low Level Component Place -->
-    <slot></slot>
+    <slot />
   </section>
 </template>
 
@@ -24,6 +26,7 @@
         required: true,
       },
       sectionIcon: {
+        // type: Array,
         type: String,
         required: true,
       },
@@ -31,4 +34,10 @@
   };
 </script>
 
-<style></style>
+<style lang="less" scoped>
+  @import '../less/style_config';
+
+  .cv-main-section {
+    background: @color_ll_section_bg;
+  }
+</style>

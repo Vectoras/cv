@@ -1,8 +1,6 @@
 <template>
-  <template-main-section
-    :sectionTitle="'Portfolios, Profiles, Websites'"
-    :sectionIcon="'fa-solid fa-flask-vial'"
-  >
+  <!-- <template-main-section :sectionTitle="'Portfolio'" :sectionIcon="['fas', 'flask-vial']"> -->
+  <template-main-section :sectionTitle="'Portfolio'" :sectionIcon="'fas fa-flask'">
     <low-level-simple-list-section :data="urls" />
   </template-main-section>
 </template>

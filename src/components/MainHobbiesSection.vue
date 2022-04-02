@@ -1,5 +1,6 @@
 <template>
-  <template-main-section :sectionTitle="'Hobbies'" :sectionIcon="'fa-solid fa-person-swimming'">
+  <!-- <template-main-section :sectionTitle="'Hobbies'" :sectionIcon="['fas', 'person-swimming']"> -->
+  <template-main-section :sectionTitle="'Hobbies'" :sectionIcon="'fas fa-swimmer'">
     <low-level-text-section :data="hobbies" />
   </template-main-section>
 </template>

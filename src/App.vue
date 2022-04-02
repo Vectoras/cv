@@ -62,4 +62,14 @@
   };
 </script>
 
-<style></style>
+<style lang="less">
+  @import './less/style_config';
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: @color_app_bg;
+  }
+</style>

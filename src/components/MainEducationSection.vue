@@ -1,5 +1,6 @@
 <template>
-  <template-main-section :sectionTitle="'Education'" :sectionIcon="'fa-solid fa-graduation-cap'">
+  <!-- <template-main-section :sectionTitle="'Education'" :sectionIcon="['fas', 'graduation-cap']"> -->
+  <template-main-section :sectionTitle="'Education'" :sectionIcon="'fas fa-graduation-cap'">
     <low-level-activity-section
       v-for="(activity, index) in activities"
       :key="`${index}-${activity.organisationName}`"

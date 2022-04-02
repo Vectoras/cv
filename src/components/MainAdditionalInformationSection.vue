@@ -1,5 +1,6 @@
 <template>
-  <template-main-section :sectionTitle="'Additional Information'" :sectionIcon="'fa-solid fa-info'">
+  <!-- <template-main-section :sectionTitle="'Additional Information'" :sectionIcon="['fas', 'info']"> -->
+  <template-main-section :sectionTitle="'Additional Information'" :sectionIcon="'fas fa-info'">
     <low-level-text-section :data="additionalInformation" />
   </template-main-section>
 </template>
