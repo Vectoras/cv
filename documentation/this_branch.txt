@@ -1,0 +1,1 @@
+Development branch meant to be the place where everything is combined and checked before deployment (on master branch)
