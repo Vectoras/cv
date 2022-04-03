@@ -75,7 +75,7 @@
 
   body {
     background: @color_bg_app;
-    font-family: @font_family_app, @font_backup_style_app;
+    font-family: @font_backup_style_app;
   }
 
   .app-container {

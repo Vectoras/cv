@@ -104,6 +104,11 @@
       margin-left: @distance_left_ll_section;
       margin-right: @distance_right_ll_section;
       margin-bottom: @distance_in_between_ll_section;
+
+      font-family: @font_family_text_ll_section;
+      font-size: @font_size_text_ll_section;
+      font-weight: @font_weight_text_ll_section;
+      line-height: @line_height_text_ll_section;
     }
   }
 </style>
