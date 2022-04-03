@@ -1,0 +1,93 @@
+{
+  "personalDetails": {
+    "fullName": "Johnny (Ionuț) Boghean",
+    "jobTitle": "Web Developer",
+    "city": "",
+    "county": "Hampshire",
+    "country": "UK",
+    "phone": "07593 910 149",
+    "email": "johnny.boghean@gmail.com",
+    "website": "https://github.com/Vectoras"
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Vue.js",
+    "Git & GitHub",
+    "Less",
+    "Databases (SQL)",
+    "NPM",
+    "Express.js",
+    "Node.js"
+  ],
+  "professionalSummary": "Meticulous, reliable, and passionate about programming and technology. Former participant in programming competitions and informal C++ Teacher assistant as a student, now eager to be part of a team and ready to put newly acquired skills at work for the success of the company. Continuously enthusiastic about learning new technologies and interested in becoming a master in web technologies.",
+  "portfolio": [
+    "https://www.danibogheanphotographer.com",
+    "https://www.colinold.co.uk",
+    "https://cornerstonegosport.co.uk"
+  ],
+  "workHistory": [
+    {
+      "jobTitle": "Study and Freelancing",
+      "companyName": "Self Employed",
+      "companyCountry": "",
+      "companyCounty": "",
+      "companyCity": "",
+      "companyWebsite": "",
+      "startDate": "Nov 2020",
+      "endDate": "Current",
+      "description": "Besides projects done as part of the courses I have taken, I am proud to have acquired enough skills to build a few real-life websites for individuals and organizations. I have been instrumental in establishing their modern professional presence online as well as in creating new possibilities for their activities."
+    },
+    {
+      "jobTitle": "Office Administrator",
+      "companyName": "Old Mutual Wealth / Quilter",
+      "companyCountry": "UK",
+      "companyCounty": "",
+      "companyCity": "Southampton",
+      "companyWebsite": "https://www.quilter.com/",
+      "startDate": "Feb 2020",
+      "endDate": "Oct 2020",
+      "description": "I have been a real asset to the company, trusted to be the interface with their clients and the financial advisers who represent them. I was especially preoccupied to validate the trust they have placed in the company by making good use of my attention to detail to accurately process requests and documents. The team praised me for \"knowing to ask questions\" and my manager for \"taking feedback very well\"."
+    },
+    {
+      "jobTitle": "Consultant",
+      "companyName": "Advanced Solutions",
+      "companyCountry": "Romania",
+      "companyCounty": "",
+      "companyCity": "Oradea",
+      "companyWebsite": "",
+      "startDate": "Oct 2014",
+      "endDate": "Jul 2016",
+      "description": "I was involved in multiple administrative aspects of organizing and implementing the opening and running of a new branch for our partner, an educational business (The Informal School of IT)."
+    }
+  ],
+  "education": [
+    {
+      "institutionName": "Emanuel University of Oradea",
+      "institutionCountry": "Romania",
+      "institutionCounty": "",
+      "institutionCity": "Oradea",
+      "institutionWebsite": "https://www.emanuel.ro/",
+      "qualification": "Bachelor of Economics",
+      "filedOfStudy": "Entrepreneurial Management",
+      "startDate": "",
+      "endDate": "",
+      "description": ""
+    },
+    {
+      "institutionName": "Filadelfia Theoretical School",
+      "institutionCountry": "Romania",
+      "institutionCounty": "",
+      "institutionCity": "Suceava",
+      "institutionWebsite": "http://www.filadelfia.ro/",
+      "qualification": "Certified IT Professional",
+      "filedOfStudy": "Mathematics and Informatics, Intensive Informatics",
+      "startDate": "",
+      "endDate": "",
+      "description": ""
+    }
+  ],
+  "additionalInformation": "Full UK driving license and access to my own transport / Right to work in the UK granted by Pre Settled Status",
+  "hobbies": "Solving programming problems in pair programming with a friend who works as a developer in London; so far we have been using codewars.com and leetcode.com"
+}

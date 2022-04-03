@@ -3,7 +3,7 @@ node_modules
 /dist
 
 # sensistive files
-data.json
+# data.json
 
 # local env files
 .env.local
