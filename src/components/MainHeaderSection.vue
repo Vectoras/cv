@@ -58,7 +58,20 @@
     justify-content: space-around;
 
     h1 {
-      font-weight: 900;
+      font-family: @font_family_name_app_header;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-family: @font_family_job_app_header;
+      // font-size: 2.5rem;
+      font-weight: 400;
+    }
+
+    address {
+      font-style: normal;
+      font-family: @font_family_details_app_header;
     }
   }
 </style>
