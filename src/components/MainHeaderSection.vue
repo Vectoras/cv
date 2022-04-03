@@ -12,7 +12,7 @@
       <p>{{ phone }}</p>
       <p>{{ email }}</p>
       <p>
-        <a :href="website" target="_blank" rel="noopener noreferrer">{{ website }}</a>
+        <a :href="website" target="_blank" rel="external">{{ website }}</a>
       </p>
     </address>
   </header>

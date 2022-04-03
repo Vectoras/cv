@@ -43,7 +43,8 @@
   .cv-main-section {
     position: relative;
     padding-left: calc(@distance_lines_horizontal_left + @thikness_lines_m_section);
-    padding-bottom: 1px; // because of child margin
+    padding-bottom: 1px; // margin collapse management
+    padding-top: 1px; // margin collapse management
 
     .horizontal-line {
       position: absolute;
@@ -73,11 +74,26 @@
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
-        gap: 0.5rem;
+        gap: (@padding_title_m_section * 0.7);
         width: max-content;
-        min-height: @height_header_m_section;
-        padding: 0.5rem;
-        margin-left: @distance_title_left_m_section;
+        // min-height: @min_height_header_m_section;
+        padding: 0.5rem @padding_title_m_section;
+        margin-left: @distance_left_title_m_section;
+        margin-top: @distance_top_title_m_section;
+        margin-bottom: @distance_bottom_title_m_section;
+
+        h3 {
+          font-family: @font_family_header_m_section;
+          font-size: @font_size_header_m_section;
+          font-weight: @font_weight_header_m_section;
+          text-transform: uppercase;
+        }
+
+        i {
+          display: inline-block;
+          min-height: (@font_size_header_m_section * @incon_text_ratio_header_m_section);
+          font-size: (@font_size_header_m_section * @incon_text_ratio_header_m_section);
+        }
       }
     }
 
