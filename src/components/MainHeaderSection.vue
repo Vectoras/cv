@@ -11,7 +11,9 @@
       <p>{{ fullAddress }}</p>
       <p>{{ phone }}</p>
       <p>{{ email }}</p>
-      <p>{{ website }}</p>
+      <p>
+        <a :href="website" target="_blank" rel="noopener noreferrer">{{ website }}</a>
+      </p>
     </address>
   </header>
 </template>
@@ -53,25 +55,34 @@
   .cv-header {
     background: @color_bg_app_header;
     padding: @padding_app_header;
+    padding-bottom: @distance_bottom_app_header;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: flex-end;
+    min-height: @min_height_app_header;
 
     h1 {
       font-family: @font_family_name_app_header;
-      font-size: 2.5rem;
-      font-weight: 700;
+      font-size: @font_size_name_app_header;
+      font-weight: @font_weight_name_app_header;
     }
 
     h2 {
       font-family: @font_family_job_app_header;
-      // font-size: 2.5rem;
-      font-weight: 400;
+      font-size: @font_size_job_app_header;
+      font-weight: @font_weight_name_app_header;
     }
 
     address {
       font-style: normal;
+      font-size: @font_family_size_app_header;
+      font-weight: @font_family_weight_app_header;
       font-family: @font_family_details_app_header;
+
+      p {
+        margin-top: 0.5rem;
+      }
     }
   }
 </style>
