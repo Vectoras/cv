@@ -2,8 +2,8 @@ WIP 001
 
 Initial Styling
 
-Project layout being pretty much done, here will focus on making it look pretty
-
+Finishing the layout and making everything look pretty
+[] low level components layout
 [] fonts
 [] colors
 [] background images
