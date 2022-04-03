@@ -71,13 +71,13 @@
     h2 {
       font-family: @font_family_job_app_header;
       font-size: @font_size_job_app_header;
-      font-weight: @font_weight_name_app_header;
+      font-weight: @font_weight_job_app_header;
     }
 
     address {
       font-style: normal;
-      font-size: @font_family_size_app_header;
-      font-weight: @font_family_weight_app_header;
+      font-size: @font_size_details_app_header;
+      font-weight: @font_weight_details_app_header;
       font-family: @font_family_details_app_header;
 
       p {
