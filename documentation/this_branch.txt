@@ -1,0 +1,11 @@
+WIP 001
+
+Initial Styling
+
+Project layout being pretty much done, here will focus on making it look pretty
+
+[] fonts
+[] colors
+[] background images
+[] text size
+[] final touches for paddings and positioning
