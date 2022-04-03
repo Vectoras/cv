@@ -1,1 +1,15 @@
+<<<<<<< HEAD
 Development branch meant to be the place where everything is combined and checked before deployment (on master branch)
+=======
+WIP 001
+
+Initial Styling
+
+Finishing the layout and making everything look pretty
+[] low level components layout
+[] fonts
+[] colors
+[] background images
+[] text size
+[] final touches for paddings and positioning
+>>>>>>> wip-001-initial-styling
