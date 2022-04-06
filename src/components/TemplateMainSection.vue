@@ -93,6 +93,7 @@
           display: inline-block;
           min-height: (@font_size_header_m_section * @incon_text_ratio_header_m_section);
           font-size: (@font_size_header_m_section * @incon_text_ratio_header_m_section);
+          color: @color_icon_header_lls_activity;
         }
       }
     }

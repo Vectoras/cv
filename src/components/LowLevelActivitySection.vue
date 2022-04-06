@@ -109,6 +109,7 @@
 
       &-organisation {
         span {
+          font-family: @font_family_title_lls_activity;
           font-weight: @font_weight_organisation_lls_activity;
         }
       }
