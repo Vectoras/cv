@@ -66,12 +66,14 @@
       font-family: @font_family_name_app_header;
       font-size: @font_size_name_app_header;
       font-weight: @font_weight_name_app_header;
+      color: @font_color_name_app_header;
     }
 
     h2 {
       font-family: @font_family_job_app_header;
       font-size: @font_size_job_app_header;
       font-weight: @font_weight_job_app_header;
+      color: @font_color_job_app_header;
     }
 
     address {
@@ -79,6 +81,7 @@
       font-size: @font_size_details_app_header;
       font-weight: @font_weight_details_app_header;
       font-family: @font_family_details_app_header;
+      color: @font_color_details_app_header;
 
       p {
         margin-top: 0.5rem;

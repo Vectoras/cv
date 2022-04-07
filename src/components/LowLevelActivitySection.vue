@@ -118,6 +118,7 @@
         grid-column: 2 / span 1;
         grid-row: 1 / span 3;
         text-align: right;
+        color: lighten(@color_text, 40%);
       }
     }
 

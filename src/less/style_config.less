@@ -3,24 +3,47 @@
 //
 // ---   COLORS --------------------------------------------------------------------------
 //
-@text_color: #000000;
+
+// main colors
+@color_main_1: #3d5a80;
+@color_main_2: #98c1d9;
+@color_main_3: #e0fbfc;
+@color_main_4: #ee6c4d;
+@color_main_5: #293241;
+
+// title / headings colors
+@color_title_1: @color_main_4;
+@color_title_2: @color_main_4;
+@color_title_3: @color_main_1;
+@color_title_4: @color_main_5;
+
+// paragrap colors
+@color_text: @color_main_5;
+
+// design elements colors
+@color_main_bg: @color_main_3;
+@color_lines: @color_main_2;
+@color_section_icons: @color_main_2;
 
 //
 // ---   APP  ----------------------------------------------------------------------------
 //
 @font_backup_style_app: sans-serif;
-@color_bg_app: #d6e9ff;
+@color_bg_app: @color_main_bg;
 @max_width_app: 900px;
 
 //
 // ---   APP HEADER  ----------------------------------------------------------------------
 //
+@font_color_name_app_header: @color_title_1;
 @font_family_name_app_header: 'Alegreya Sans SC';
 @font_size_name_app_header: 2.9rem;
 @font_weight_name_app_header: 700;
+@font_color_job_app_header: @color_title_2;
 @font_family_job_app_header: 'Alegreya Sans SC';
 @font_size_job_app_header: 1.6rem;
 @font_weight_job_app_header: 500;
+@font_color_details_app_header: @color_text;
 @font_family_details_app_header: 'Exo';
 @font_size_details_app_header: initial;
 @font_weight_details_app_header: 400;
@@ -32,12 +55,13 @@
 //
 // ---   MAIN SECTION  ---------------------------------------------------------------
 //
+@font_color_header_m_section: @color_title_3;
 @font_family_header_m_section: 'Alegreya Sans SC';
 @font_size_header_m_section: 1.6rem;
 @font_weight_header_m_section: 500;
 @color_bg_m_section: @color_bg_app;
 @thikness_lines_m_section: 1px;
-@color_lines_m_section: red;
+@color_lines_m_section: @color_lines;
 @distance_lines_horizontal_left: 1rem;
 @distance_left_title_m_section: @distance_left_ll_section;
 @distance_top_title_m_section: 4rem;
@@ -45,12 +69,13 @@
 @padding_title_m_section: 1rem;
 @min_height_header_m_section: 6rem;
 @incon_text_ratio_header_m_section: 1;
-@color_icon_header_lls_activity: lighten(@text_color, 50%);
+@color_icon_header_lls_activity: @color_section_icons;
 
 //
 // ---   LOW LEVEL SECTION  ---------------------------------------------------------------
 //
 @font_family_title_ll_section: ;
+@font_color_text_ll_section: @color_text;
 @font_family_text_ll_section: 'Tajawal';
 @font_weight_text_ll_section: 400;
 @font_size_text_ll_section: 1.2rem;
@@ -72,5 +97,3 @@
 @font_family_title_lls_activity: 'Alegreya Sans SC';
 @font_size_title_lls_activity: 1.2rem;
 @font_weight_title_lls_activity: 600;
-@lls_activity: ;
-@lls_activity: ;

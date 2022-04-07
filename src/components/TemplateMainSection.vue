@@ -87,6 +87,7 @@
           font-size: @font_size_header_m_section;
           font-weight: @font_weight_header_m_section;
           text-transform: uppercase;
+          color: @font_color_header_m_section;
         }
 
         i {
@@ -110,6 +111,7 @@
       font-size: @font_size_text_ll_section;
       font-weight: @font_weight_text_ll_section;
       line-height: @line_height_text_ll_section;
+      color: @font_color_text_ll_section;
     }
   }
 </style>
