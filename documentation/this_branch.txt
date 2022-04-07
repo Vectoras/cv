@@ -1,11 +1,6 @@
-WIP 001
+DLT 001
 
-Initial Styling
-
-Finishing the layout and making everything look pretty
-[] low level components layout
-[] fonts
-[] colors
-[] background images
-[] text size
-[] final touches for paddings and positioning
+New styling after asking Richard Bradley for feedback
+* Bigger font sizes
+* Higher font weight
+* Lowe hierarchy for seciton icons by smaller size and change in color 
