@@ -1,11 +1,6 @@
-WIP 001
+NPU 001
 
-Initial Styling
+Updating packages
 
-Finishing the layout and making everything look pretty
-[] low level components layout
-[] fonts
-[] colors
-[] background images
-[] text size
-[] final touches for paddings and positioning
+First time doing this, playing with ncu tool (npm-check-updates)
+Updating everythig to the last version, including webpack and babel which came with the vue cli
