@@ -1,1 +1,6 @@
-Development branch meant to be the place where everything is combined and checked before deployment (on master branch)
+NPU 002
+
+Updating packages
+
+Second time doing this, straigth after finishing the experiments in npu-001 branch
+playing with the npm-check tool
