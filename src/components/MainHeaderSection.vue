@@ -54,6 +54,18 @@
 
   .cv-header {
     background: @color_bg_app_header;
+    background-image: linear-gradient(
+        0deg,
+        transparent 0%,
+        @color_bg_app_header 0%,
+        @color_bg_app_header 48%,
+        transparent 65%,
+        transparent 100%
+      ),
+      url(@image_bg_app_header);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: @padding_app_header;
     padding-bottom: @distance_bottom_app_header;
     display: flex;
