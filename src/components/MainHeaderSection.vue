@@ -66,8 +66,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    box-shadow: 0 0 1rem shade(@color_main_bg, 20%);
+
     padding: @padding_app_header;
     padding-bottom: @distance_bottom_app_header;
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;

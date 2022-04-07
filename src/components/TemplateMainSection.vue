@@ -112,6 +112,8 @@
       font-weight: @font_weight_text_ll_section;
       line-height: @line_height_text_ll_section;
       color: @font_color_text_ll_section;
+
+      box-shadow: 0 0 1rem shade(@color_main_bg, 15%);
     }
   }
 </style>
