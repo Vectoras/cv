@@ -7,3 +7,4 @@ List of codes:
 wip - work in progres - general work without adding new features
 feature - extending the app with a new feature
 fix - bug fixing, any type
+dlt - diferent look test/try
