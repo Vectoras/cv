@@ -4,3 +4,6 @@ Updating packages
 
 Second time doing this, straigth after finishing the experiments in npu-001 branch
 playing with the npm-check tool
+
+!!! could not do any updates because they have already bin done in npu-001 branch
+git does not monitor node_modules and they have remained installed after swiching branches
