@@ -1,30 +1,24 @@
-// property_element_section
+@import './config';
 
 //
 // ---   COLORS --------------------------------------------------------------------------
 //
 
-// main colors
-@color_main_1: #3d5a80;
-@color_main_2: #98c1d9;
-@color_main_3: #e0fbfc;
-@color_main_4: #ee6c4d;
-@color_main_5: #293241;
-
 // title / headings colors
 @color_title_1: @color_main_4;
 @color_title_2: @color_main_4;
-@color_title_3: @color_main_1;
-@color_title_4: @color_main_5;
+@color_title_3: @color_main_4;
+@color_title_4: @color_main_4;
 
 // paragrap colors
-@color_text: @color_main_5;
+@color_text: @color_main_4;
 
 // design elements colors
-@color_main_bg: @color_main_3;
-@color_content_bg: #ffffff;
-@color_lines: @color_main_2;
-@color_section_icons: @color_main_2;
+@color_main_bg: @color_main_1;
+@color_content_bg: @color_main_2;
+@color_lines: @color_main_3;
+@color_section_icons_desaturate: 0%;
+@color_section_icons: desaturate(@color_main_3, @color_section_icons_desaturate);
 
 //
 // ---   APP  ----------------------------------------------------------------------------
@@ -36,20 +30,20 @@
 //
 // ---   APP HEADER  ----------------------------------------------------------------------
 //
-@image_bg_app_header: 'http://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg';
+@image_bg_app_header: @image;
 @font_color_name_app_header: @color_title_1;
-@font_family_name_app_header: 'Alegreya Sans SC';
+@font_family_name_app_header: @font_1;
 @font_size_name_app_header: 2.9rem;
 @font_weight_name_app_header: 700;
 @font_color_job_app_header: @color_title_2;
-@font_family_job_app_header: 'Alegreya Sans SC';
+@font_family_job_app_header: @font_1;
 @font_size_job_app_header: 1.6rem;
 @font_weight_job_app_header: 500;
 @font_color_details_app_header: @color_text;
-@font_family_details_app_header: 'Exo';
+@font_family_details_app_header: @font_2;
 @font_size_details_app_header: initial;
 @font_weight_details_app_header: 400;
-@color_bg_app_header: #ffffff;
+@color_bg_app_header: @color_content_bg;
 @padding_app_header: 1rem;
 @distance_bottom_app_header: 3rem;
 @min_height_app_header: 25rem;
@@ -66,7 +60,7 @@
 // ---   MAIN SECTION   --------------------------------------------------------------
 //
 @font_color_header_m_section: @color_title_3;
-@font_family_header_m_section: 'Alegreya Sans SC';
+@font_family_header_m_section: @font_1;
 @font_size_header_m_section: 1.6rem;
 @font_weight_header_m_section: 500;
 @color_bg_m_section: @color_bg_app;
@@ -86,7 +80,7 @@
 //
 @font_family_title_ll_section: ;
 @font_color_text_ll_section: @color_text;
-@font_family_text_ll_section: 'Tajawal';
+@font_family_text_ll_section: @font_3;
 @font_weight_text_ll_section: 400;
 @font_size_text_ll_section: 1.2rem;
 @line_height_text_ll_section: 1.7rem;
@@ -104,6 +98,6 @@
 @font_size_header_lls_activity: 1.1rem;
 @font_weight_header_lls_activity: @font_weight_text_ll_section;
 @font_weight_organisation_lls_activity: 500;
-@font_family_title_lls_activity: 'Alegreya Sans SC';
+@font_family_title_lls_activity: @font_1;
 @font_size_title_lls_activity: 1.2rem;
 @font_weight_title_lls_activity: 600;
