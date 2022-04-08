@@ -1,19 +1,27 @@
 <template>
   <div class="app-container">
     <app-header :data="personalDetails" />
-    <skills-section :data="skills" />
-    <professional-summary-section :data="professionalSummary" />
-    <portfolio-section :data="portfolio" />
-    <work-history-section :data="workHistory" />
-    <education-section :data="education" />
-    <additional-information-section :data="additionalInformation" />
-    <hobbies-section :data="hobbies" />
+
+    <main class="cv-body">
+      <div class="vertical-line"></div>
+
+      <skills-section :data="skills" />
+      <professional-summary-section :data="professionalSummary" />
+      <portfolio-section :data="portfolio" />
+      <work-history-section :data="workHistory" />
+      <education-section :data="education" />
+      <additional-information-section :data="additionalInformation" />
+      <hobbies-section :data="hobbies" />
+    </main>
+
+    <app-footer />
   </div>
 </template>
 
 <script>
   // import components
   import AppHeader from './components/MainHeaderSection.vue';
+  import AppFooter from './components/MainFooterSection.vue';
   import SkillsSection from './components/MainSkillsSection.vue';
   import ProfessionalSummarySection from './components/MainProfessionalSummarySection.vue';
   import PortfolioSection from './components/MainPortfolioSection.vue';
@@ -30,6 +38,7 @@
     name: 'OnlineCvApp',
     components: {
       AppHeader,
+      AppFooter,
       SkillsSection,
       ProfessionalSummarySection,
       PortfolioSection,
@@ -81,5 +90,22 @@
   .app-container {
     max-width: @max_width_app;
     margin: 0 auto;
+  }
+
+  .cv-body {
+    position: relative;
+    padding-top: @distance_bottom_app_header;
+    padding-bottom: @distance_top_app_footer;
+
+    .vertical-line {
+      position: absolute;
+      left: @distance_lines_horizontal_left;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      width: 0;
+      border: none;
+      border-left: solid @thikness_lines_m_section @color_lines_m_section;
+    }
   }
 </style>
