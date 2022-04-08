@@ -1,4 +1,6 @@
 WIP 002
 
 Adding a footer sectiont to the CV as it does end quite abruptly at the moment
-The plan is to simply be a sqaure with the same image used on top
+The plan is to simply be a rectangle with the same image used on top
+
+DONE
