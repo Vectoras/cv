@@ -87,12 +87,14 @@
           font-size: @font_size_header_m_section;
           font-weight: @font_weight_header_m_section;
           text-transform: uppercase;
+          color: @font_color_header_m_section;
         }
 
         i {
           display: inline-block;
           min-height: (@font_size_header_m_section * @incon_text_ratio_header_m_section);
           font-size: (@font_size_header_m_section * @incon_text_ratio_header_m_section);
+          color: @color_icon_header_lls_activity;
         }
       }
     }
@@ -109,6 +111,9 @@
       font-size: @font_size_text_ll_section;
       font-weight: @font_weight_text_ll_section;
       line-height: @line_height_text_ll_section;
+      color: @font_color_text_ll_section;
+
+      box-shadow: 0 0 1rem shade(@color_main_bg, 15%);
     }
   }
 </style>

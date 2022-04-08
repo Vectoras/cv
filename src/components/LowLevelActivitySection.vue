@@ -109,6 +109,7 @@
 
       &-organisation {
         span {
+          font-family: @font_family_title_lls_activity;
           font-weight: @font_weight_organisation_lls_activity;
         }
       }
@@ -117,6 +118,7 @@
         grid-column: 2 / span 1;
         grid-row: 1 / span 3;
         text-align: right;
+        color: lighten(@color_text, 40%);
       }
     }
 

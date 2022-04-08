@@ -54,8 +54,24 @@
 
   .cv-header {
     background: @color_bg_app_header;
+    background-image: linear-gradient(
+        0deg,
+        transparent 0%,
+        @color_bg_app_header 0%,
+        @color_bg_app_header 48%,
+        transparent 65%,
+        transparent 100%
+      ),
+      url(@image_bg_app_header);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0 0 1rem shade(@color_main_bg, 20%);
+
     padding: @padding_app_header;
     padding-bottom: @distance_bottom_app_header;
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -66,12 +82,14 @@
       font-family: @font_family_name_app_header;
       font-size: @font_size_name_app_header;
       font-weight: @font_weight_name_app_header;
+      color: @font_color_name_app_header;
     }
 
     h2 {
       font-family: @font_family_job_app_header;
       font-size: @font_size_job_app_header;
       font-weight: @font_weight_job_app_header;
+      color: @font_color_job_app_header;
     }
 
     address {
@@ -79,6 +97,7 @@
       font-size: @font_size_details_app_header;
       font-weight: @font_weight_details_app_header;
       font-family: @font_family_details_app_header;
+      color: @font_color_details_app_header;
 
       p {
         margin-top: 0.5rem;

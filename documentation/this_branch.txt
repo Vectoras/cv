@@ -1,1 +1,22 @@
+<<<<<<< HEAD
 Development branch meant to be the place where everything is combined and checked before deployment (on master branch)
+=======
+WIP 001
+
+Initial Styling
+
+Finishing the layout and making everything look pretty
+[done] low level components layout
+[done] fonts
+[] colors
+[] background images
+[done] text size
+[done] final touches for paddings and positioning
+
+MERGED dlt-001
+
+New styling after asking Richard Bradley for feedback
+* Bigger font sizes
+* Higher font weight
+* Lower hierarchy for seciton icons by smaller size and change in color 
+>>>>>>> wip-001-initial-styling
