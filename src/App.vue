@@ -21,6 +21,7 @@
 <script>
   // import components
   import AppHeader from './components/MainHeaderSection.vue';
+  import AppFooter from './components/MainFooterSection.vue';
   import SkillsSection from './components/MainSkillsSection.vue';
   import ProfessionalSummarySection from './components/MainProfessionalSummarySection.vue';
   import PortfolioSection from './components/MainPortfolioSection.vue';
@@ -28,7 +29,6 @@
   import EducationSection from './components/MainEducationSection.vue';
   import HobbiesSection from './components/MainHobbiesSection.vue';
   import AdditionalInformationSection from './components/MainAdditionalInformationSection.vue';
-  import AppFooter from './components/MainFooterSection.vue';
   // import data
   import rawData from './assets/data.json';
   // import functionality
