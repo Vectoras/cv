@@ -1,3 +1,1 @@
-DLT 002
-
-Experimenting with new look, intent to be the first finish
+Development branch, intent to be the last place before development, which is happening in the master branch
