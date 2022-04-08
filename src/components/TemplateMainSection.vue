@@ -1,6 +1,5 @@
 <template>
   <section class="cv-main-section">
-    <div class="vertical-line"></div>
     <header class="cv-main-section-header">
       <div class="horizontal-line"></div>
 
@@ -54,16 +53,6 @@
       width: 100%;
       border: none;
       border-top: solid @thikness_lines_m_section @color_lines_m_section;
-    }
-
-    .vertical-line {
-      position: absolute;
-      left: @distance_lines_horizontal_left;
-      z-index: -1;
-      width: 0;
-      height: 100%;
-      border: none;
-      border-left: solid @thikness_lines_m_section @color_lines_m_section;
     }
 
     &-header {
